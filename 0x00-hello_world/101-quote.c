@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-/*
+/**
  * main - prints an error message to stderr
  * Return: Returns 1 to indicate an error occurred.
  */
