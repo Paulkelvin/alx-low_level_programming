@@ -10,3 +10,4 @@
 - Task9: Write a program that prints all possible combinations of single-digit numbers.
 - Task10: a program that prints all possible different combinations of two digits.
 - Task11: a program that prints all possible different combinations of three digits.
+-Task12: a program that prints all possible combinations of two two-digit numbers.
