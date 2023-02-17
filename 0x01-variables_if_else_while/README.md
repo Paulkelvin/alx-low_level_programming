@@ -8,3 +8,4 @@
 - Task7: Write a program that prints the lowercase alphabet in reverse, followed by a new line.
 - Task8: Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
 - Task9: Write a program that prints all possible combinations of single-digit numbers.
+- Task10: a program that prints all possible different combinations of two digits.
