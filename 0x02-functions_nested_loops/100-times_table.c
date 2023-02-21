@@ -1,36 +1,41 @@
 #include <stdio.h>
+
 /**
- * main - prints out all the numbers between 00 and 99
- * with no two digits being the same
- * Return: 0
+ * print_times_table - prints the n times table, starting with 0
+ * @n: the highest value to print in the table
+ *
+ * Return: void
  */
-int main(void)
+void print_times_table(int n)
 {
-	int i, j;
+	if (n < 0 || n > 15)
+		return;
 
-	for (i = 48; i < 58; i++)
+	for (int i = 0; i <= n; i++)
 	{
-		for (j = i; j < 58; j++)
+		for (int j = 0; j <= n; j++)
 		{
-			if (i == j)
-			{
-				continue;
-			}
+			int num = i * j;
 
-			putchar(i);
-			putchar(j);
-
-			if (i == 56 && j == 57)
-			{
-				break;
-			}
+			if (num == 0)
+				putchar('0');
 			else
 			{
-				putchar(',');
-				putchar(' ');
+				int div = 10000;
+				while (div > num)
+					div /= 10;
+
+				while (div >= 1)
+				{
+					putchar((num / div) + '0');
+					num %= div;
+					div /= 10;
+				}
 			}
+
+			if (j != n)
+				putchar(' ');
 		}
+		putchar('\n');
 	}
-	putchar('\n');
-	return (0);
 }
