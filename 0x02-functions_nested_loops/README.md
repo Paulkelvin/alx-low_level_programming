@@ -4,3 +4,4 @@
 - Task3: a function that checks for lowercase character
 - Task4: a function that checks for alphabetic character
 - Task5: a function that prints the sign of a number.
+- Task6; a a function that computes the absolute value of an integer.
