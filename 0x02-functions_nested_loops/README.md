@@ -6,3 +6,4 @@
 - Task5: a function that prints the sign of a number.
 - Task6; a function that computes the absolute value of an integer.
 - Task7: a function that prints the last digit of a number.
+- Task8: a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
