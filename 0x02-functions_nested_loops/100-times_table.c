@@ -22,6 +22,7 @@ void print_times_table(int n)
 			else
 			{
 				int div = 10000;
+
 				while (div > num)
 					div /= 10;
 
