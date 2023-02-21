@@ -1,1 +1,4 @@
 - Task0: a program that prints _putchar, followed by a new line
+- Task1: a function that prints the alphabet, in lowercase, followed by a new line
+- Task2:  a function that prints 10 times the alphabet, in lowercase, followed by a new line
+- Task3: a function that checks for lowercase character
