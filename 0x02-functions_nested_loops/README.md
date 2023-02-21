@@ -10,3 +10,4 @@
 - Task9: a function that prints the 9 times table, starting with 0.
 -Task10: a function that adds two integers and returns the result.
 - Task11: a function that prints all natural numbers from n to 98, followed by a new line.
+- Task12: a function that prints the n times table, starting with 0.
