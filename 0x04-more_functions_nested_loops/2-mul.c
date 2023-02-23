@@ -1,16 +1,17 @@
 #include "main.h"
 
+
 /**
- *  main - check the code
- *
- *  Return: Always 0.
+ * mul - Multiplies two integers
+ * @x: The first number to multiply
+ * @y: The second number to multiply with first number
+ * Return: The result of multiplication between x param and y param
  */
 
-int main(void)
+int mul(int x, int y)
+
 {
-	    print_triangle(2);
-	    print_triangle(10);
-	    print_triangle(1);
-	    print_triangle(0);
-	    return (0);
+
+	return (x * y);
+
 }
