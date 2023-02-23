@@ -12,3 +12,6 @@
 - Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
 
 Don’t add or remove any lines of code, as we will be checking your line count. You are only allowed to comment out existing code.
+- Fix the code in 2-largest_number.c so that it correctly prints out the largest of three numbers, no matter the case.
+
+Line count will not be checked for this task.
