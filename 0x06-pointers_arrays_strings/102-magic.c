@@ -1,4 +1,13 @@
 #include <stdio.h>
+/*
+ 12    * write your line of code here...
+ 13    * Remember:
+ 14    * main - magic
+ 15    * - you are not allowed to use a
+ 16    *   - you are not allowed to modify p
+ 17    *   - only one statement
+ 18    *   - you are not allowed to code anything els    e than this line of code
+ 19    */
 
 int main(void)
 {
@@ -8,17 +17,7 @@ int main(void)
 
         a[2] = 1024;
         p = &n;
-  /*
-   * write your line of code here...
-   * Remember:
-   * main - magic
-   * - you are not allowed to use a
-   *   - you are not allowed to modify p
-   *   - only one statement
-   *   - you are not allowed to code anything else than this line of code
-   */
         *(p + 5) = 98;
-  /* ...so that this prints 98\n */
         printf("a[2] = %d\n", a[2]);
         return (0);
 }
