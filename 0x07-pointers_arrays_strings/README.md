@@ -27,7 +27,7 @@ Format: see example
 You are allowed to use the standard library
 - Task8: Write a function that sets the value of a pointer to a char.
 Prototype: void set_string(char **s, char *to);
--Task9: Create a file that contains the password for the crackme2 executable.
+- Task9: Create a file that contains the password for the crackme2 executable.
 Your file should contain the exact password, no new line, no extra space
 ltrace, ldd, gdb and objdump can help
 You may need to install the openssl library to run the crakme2 program: sudo apt install libssl-dev
