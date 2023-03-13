@@ -4,4 +4,5 @@
 Prototype: char *create_array(unsigned int size, char c)
 Returns NULL if size = 0
 Returns a pointer to the array, or NULL if it fails
-- Task0: Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+- Task1: Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+- Task2: Write a function that concatenates two strings
