@@ -8,4 +8,5 @@ Returns a pointer to the array, or NULL if it fails
 - Task2: Write a function that concatenates two strings
 - Task3: Write a function that returns a pointer to a 2 dimensional array of integers.
 Task4: Write a function that frees a 2 dimensional grid previously created by your alloc_grid function
+Task5: Write a function that concatenates all the arguments of your program.
 
