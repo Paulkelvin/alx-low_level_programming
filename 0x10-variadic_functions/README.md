@@ -1,10 +1,10 @@
 0x10. C - Variadic functions
 
-- Task0: Write a function that returns the sum of all its parameters.
+0. Task0: Write a function that returns the sum of all its parameters.
 * Prototype: int sum_them_all(const unsigned int n, ...);
 If n == 0, return 0
 
-- Task1: Write a function that prints numbers, followed by a new line.
+1. Task1: Write a function that prints numbers, followed by a new line.
 
 * Prototype: void print_numbers(const char *separator, const unsigned int n, ...);
 * where separator is the string to be printed between numbers
@@ -13,7 +13,7 @@ If n == 0, return 0
 * If separator is NULL, don’t print it
 * Print a new line at the end of your function
 
-- Task2: Write a function that prints strings, followed by a new line.
+2. Task2: Write a function that prints strings, followed by a new line.
 
 * Prototype: void print_strings(const char *separator, const unsigned int n, ...);
 * where separator is the string to be printed between the strings
@@ -23,7 +23,7 @@ If n == 0, return 0
 * If one of the string is NULL, print (nil) instead
 * Print a new line at the end of your function
 
-- Task3: Write a function that prints anything.
+3. Task3: Write a function that prints anything.
 
 Prototype: void print_all(const char * const format, ...);
 where format is a list of types of arguments passed to the function
